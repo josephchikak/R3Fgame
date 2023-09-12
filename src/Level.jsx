@@ -139,7 +139,7 @@ export const BlockEnd = ({ position= [0,0,0]}) => {
 
     return <group position={ position }>
         <Text scale={1} font='./bebas-neue-v9-latin-regular.woff'  position={[ 0, 2.25, 2 ]}>
-                Ball Runner
+                Finish
                 <meshBasicMaterial toneMapped={ false }/>
             </Text>
         {/* FloorEnd */}
