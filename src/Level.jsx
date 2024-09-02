@@ -11,7 +11,7 @@ const floor2Material = new THREE.MeshStandardMaterial({ color: 'greenyellow'})
 const obstacleMaterial = new THREE.MeshStandardMaterial({ color: 'red'})
 const wallMaterial = new THREE.MeshStandardMaterial({ color: 'white'})
 
-
+console.log('yes')
 
 export const BlockStart = ({ position= [0,0,0]}) => {
     return <group position={ position }>
